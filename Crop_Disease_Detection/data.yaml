@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Corn___Common_Rust', 'Corn___Gray_Leaf_Spot', 'Corn___Healthy', 'Corn___Leaf_Blight', 'Invalid']
+
+roboflow:
+  workspace: cropdiseasebangladesh
+  project: crop_disease_detection-1xio0
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/cropdiseasebangladesh/crop_disease_detection-1xio0/dataset/1
